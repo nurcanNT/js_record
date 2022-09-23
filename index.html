@@ -4,32 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter</title>
+    <title>Sports Counter</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
-<body>
-    <div class="box">
+<body class="index2">
+<div class="menu">
+    <div id="YanMenu" class="sidenav">
+        <a href="index.html" class="closebtn" onclick="closenav()">Pink</a>
+        <a href="index1.html" class="closebtn2" onclick="btnnav()">Black</a>
+    </div>
 
-        <h1>Counter:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <p id="save-el">Previous records: </p>
-        
+    <div class="sportsclass">
+        <h1 class="sports2" >SPORTS COUNTER</h1>
     </div>
-    
-    <div class="box-2">
-        
-        <h1 id="calculator">Calculator</h1>
-        <div class="recordclass">
-            <label for="numbers">Records:</label>
-            <input id="numbers" type="text"  value="" size=9><br><br>
-            <label for="result">Result:</label>
-            <input id="result" type="text" size=8><br><br>
-            <button id="total" onclick="total()">Total</button>
-        </div>
-    </div>
-    <script src="index.js"></script>
 </body>
 </html>
